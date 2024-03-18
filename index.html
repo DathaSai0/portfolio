@@ -26,7 +26,7 @@
     <header id="header">
       <nav class="navbar navbar-expand-lg" style="background-color: black">
         <div class="container">
-          <a class="navbar-brand text-white" href="#">Portfolio.</a>
+          <a class="navbar-brand text-white logo" href="#">Portfolio.</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -40,23 +40,30 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item me-5">
+              <li class="nav-item me-5 navigation">
                 <a
                   class="nav-link active text-white"
                   aria-current="page"
                   href="#home"
+                  style="--i: 1"
                   >Home</a
                 >
               </li>
-              <li class="nav-item me-5">
-                <a class="nav-link text-white" href="#about">About</a>
+              <li class="nav-item me-5 navigation">
+                <a class="nav-link text-white" style="--i: 2" href="#about"
+                  >About</a
+                >
               </li>
 
-              <li class="nav-item me-5">
-                <a class="nav-link text-white" href="#projects">Projects</a>
+              <li class="nav-item me-5 navigation">
+                <a class="nav-link text-white" style="--i: 3" href="#projects"
+                  >Projects</a
+                >
               </li>
-              <li class="nav-item me-5">
-                <a class="nav-link text-white" href="#contact">Contact</a>
+              <li class="nav-item me-5 navigation">
+                <a class="nav-link text-white" style="--i: 4" href="#contact"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -69,7 +76,7 @@
         <div class="row">
           <div class="col-lg-8 col-sm-12">
             <h3>Hi, Myself</h3>
-            <h1 class="mb-2">Datha Sai</h1>
+            <h1 class="mb-2 name">Datha Sai</h1>
             <h3>And I am a <span>Front-end Developer </span></h3>
             <p>
               I am a developer who is always ready to accept new challenges and
@@ -77,15 +84,21 @@
               the about section
             </p>
             <div class="social-media mt-5">
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-facebook"></i></a>
-              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="" style="--i: 1"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="" style="--i: 2"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="" style="--i: 3"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
             </div>
             <a download href="./Assets/resume.docx">
               <button class="btn">Download Resume</button></a
             >
           </div>
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12 text-sm-center">
             <img
               src="./Assets/portfolio.jpg"
               alt=""
@@ -99,7 +112,7 @@
     <div id="about">
       <div class="container">
         <div class="row">
-          <div class="about-img col-lg-4 col-sm-12">
+          <div class="about-img col-lg-4 col-sm-12 text-sm-center text-center">
             <img src="./Assets/about back img.png" alt="" />
           </div>
           <div class="about-content col-lg-8 col-sm-12">
